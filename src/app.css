@@ -1,0 +1,7 @@
+.Container{
+    display: flex;
+
+}
+.home{
+    flex: 4;
+}
