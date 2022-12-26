@@ -1,9 +1,10 @@
 import './userList.css'
 import { DataGrid } from '@mui/x-data-grid';
+import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
 
 
 const columns = [
-    { field: 'id', headerName: 'ID', width: 100 },
+    { field: 'id', headerName: 'ID', width: 120 },
     {
         field: 'user', headerName: 'User', width: 150, renderCell: (params) => {
             return (
@@ -16,9 +17,19 @@ const columns = [
             )
         }
     },
-    { field: 'email', headerName: 'Email3', with: 50 },
-    { field: 'status', headerName: 'Status', with: 200 },
-    { field: 'transaction', headerName: 'Transaction', with: 130 }
+    { field: 'email', headerName: 'Email', with: 150 },
+    { field: 'status', headerName: 'Status', with: 150 },
+    { field: 'transaction', headerName: 'Transaction', with: 200 },
+    {
+        field: "action", headerName: "Action", with: 200, renderCell: (params) => {
+            return (
+                <>
+                    <button className='userListEditbtn'>Edit</button>
+                    <DeleteOutlineIcon className='userListDeleteIcon' />
+                </>
+            )
+        }
+    }
 ]
 
 const rows = [
@@ -107,12 +118,12 @@ const rows = [
 
 export const UserList = () => {
     return (
-        <div style={{ height: 400, width: '100%' }}>
+        <div style={{ height: '100%', width: '100%' }} className='userList '>
             <DataGrid
                 rows={rows}
                 columns={columns}
-                pageSize={5}
-                rowsPerPageOptions={[8]}
+                pageSize={8}
+                disableSelectionOnClick
                 checkboxSelection
             />
         </div>
