@@ -62,3 +62,87 @@ export const userData = [
     }
 
 ];
+
+export const Userrows = [
+    {
+        id: 1,
+        username: "John snow",
+        avatar: "https://vinusimages.co/wp-content/uploads/2018/10/EG7A2390.jpgA_.jpg",
+        email: "john@gmail.com",
+        status: "active",
+        transaction: "$120.00"
+    },
+    {
+        id: 2,
+        username: "John snow",
+        avatar: "https://vinusimages.co/wp-content/uploads/2018/10/EG7A2390.jpgA_.jpg",
+        email: "john@gmail.com",
+        status: "active",
+        transaction: "$120.00"
+    },
+    {
+        id: 3,
+        username: "John snow",
+        avatar: "https://vinusimages.co/wp-content/uploads/2018/10/EG7A2390.jpgA_.jpg",
+        email: "john@gmail.com",
+        status: "active",
+        transaction: "$120.00"
+    },
+    {
+        id: 4,
+        username: "John snow",
+        avatar: "https://vinusimages.co/wp-content/uploads/2018/10/EG7A2390.jpgA_.jpg",
+        email: "john@gmail.com",
+        status: "active",
+        transaction: "$120.00"
+    },
+    {
+        id: 5,
+        username: "John snow",
+        avatar: "https://vinusimages.co/wp-content/uploads/2018/10/EG7A2390.jpgA_.jpg",
+        email: "john@gmail.com",
+        status: "active",
+        transaction: "$120.00"
+    },
+    {
+        id: 6,
+        username: "John snow",
+        avatar: "https://vinusimages.co/wp-content/uploads/2018/10/EG7A2390.jpgA_.jpg",
+        email: "john@gmail.com",
+        status: "active",
+        transaction: "$120.00"
+    },
+    {
+        id: 7,
+        username: "John snow",
+        avatar: "https://vinusimages.co/wp-content/uploads/2018/10/EG7A2390.jpgA_.jpg",
+        email: "john@gmail.com",
+        status: "active",
+        transaction: "$120.00"
+    },
+    {
+        id: 8,
+        username: "John snow",
+        avatar: "https://vinusimages.co/wp-content/uploads/2018/10/EG7A2390.jpgA_.jpg",
+        email: "john@gmail.com",
+        status: "active",
+        transaction: "$120.00"
+    },
+    {
+        id: 9,
+        username: "John snow",
+        avatar: "https://vinusimages.co/wp-content/uploads/2018/10/EG7A2390.jpgA_.jpg",
+        email: "john@gmail.com",
+        status: "active",
+        transaction: "$120.00"
+    },
+    {
+        id: 10,
+        username: "John snow",
+        avatar: "https://vinusimages.co/wp-content/uploads/2018/10/EG7A2390.jpgA_.jpg",
+        email: "john@gmail.com",
+        status: "active",
+        transaction: "$120.00"
+    }
+
+]
